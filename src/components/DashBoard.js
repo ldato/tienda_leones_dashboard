@@ -24,6 +24,14 @@ function DashBoard() {
         navigate('/IngresarCategoria');
     }
 
+    const IngresarProveedor = () => {
+        navigate('/IngresarProveedor');
+    }
+
+    const IngresarArticulo = () => {
+        navigate('/IngresarArticulo');
+    }
+
     return (
         <>
             <Container>
@@ -37,7 +45,7 @@ function DashBoard() {
                     <Button onClick={IngresoCliente} className="tamanio-boton">Ingresar Cliente</Button>
                     </Col>
                     <Col xs={3}>
-                    <Button className="tamanio-boton">Ingresar Articulo</Button>
+                    <Button onClick={IngresarArticulo} className="tamanio-boton">Ingresar Articulo</Button>
                     </Col>
                     <Col xs={3}>
                     <Button onClick={IngresarCategoria} className="tamanio-boton">Ingresar Categoria</Button>
@@ -51,7 +59,7 @@ function DashBoard() {
                     <Button onClick={IngresarTalle} className="tamanio-boton">Ingresar Talle</Button>
                     </Col>
                     <Col xs={3}>
-                    <Button className="tamanio-boton">Ingresar Proveedor</Button>
+                    <Button onClick={IngresarProveedor} className="tamanio-boton">Ingresar Proveedor</Button>
                     </Col>
                 </Row>
             </Container>

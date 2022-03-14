@@ -40,7 +40,7 @@ function IngresarCliente() {
                 alert("el usuario fue registrado con exito");
                 setTimeout(() => {
                     irHome();
-                }, 1000);
+                }, 100);
             } else {
                 alert("Ocurrio un problema con el registro de usuario");
             }

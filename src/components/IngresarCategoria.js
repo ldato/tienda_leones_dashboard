@@ -36,7 +36,7 @@ function IngresarCategoria() {
                 alert("La categoria fue ingresada con éxito");
                 setTimeout(() => {
                     irHome();
-                }, 500)
+                }, 100)
             } else {
                 alert("Ha ocurrido un error al registrar la categoria");
             }

@@ -35,7 +35,7 @@ const registrarTalle = async () => {
             alert("El talle fue ingresado con éxito");
             setTimeout(() => {
                 irHome();
-            }, 1000);
+            }, 100);
         } else {
             alert("Ha ocurrido un problema con el ingreso de la marca");
         }

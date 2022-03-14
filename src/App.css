@@ -45,6 +45,10 @@
   margin-top: 25px;
 }
 
+.margen-superior3 {
+  margin-top: 10px;
+}
+
 .alto-fila {
   height: 35px;
 }
@@ -56,6 +60,11 @@
 
 .negrita {
   font-weight: bold;
+}
+
+.centrado-vertical {
+  display: flex;
+  align-items: center;
 }
 
 

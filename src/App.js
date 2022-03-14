@@ -8,6 +8,8 @@ import DashBoard from "./components/DashBoard"
 import IngresarMarca from "./components/IngresarMarca";
 import IngresarTalle from "./components/IngresarTalle";
 import IngresarCategoria from "./components/IngresarCategoria";
+import IngresarProveedor from "./components/IngresarProveedor";
+import IngresarArticulo from "./components/IngresarArticulo";
 
 function App() {
 
@@ -23,10 +25,12 @@ function App() {
             <Router>
                 <Routes>
                     <Route exact path="/" element={<DashBoard />}/>
-                    <Route exact path="/IngresarCliente" element={<IngresarCliente />}/>
+                    <Route path="/IngresarCliente" element={<IngresarCliente />}/>
                     <Route path="/IngresarMarca" element={<IngresarMarca />}/>
                     <Route path="/IngresarTalle" element={<IngresarTalle />}/>
                     <Route path="/IngresarCategoria" element={<IngresarCategoria />}/>
+                    <Route path="/IngresarProveedor" element={<IngresarProveedor />}/>
+                    <Route path="IngresarArticulo" element={<IngresarArticulo />}/>
                 </Routes>
             </Router>
         </>

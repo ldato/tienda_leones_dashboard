@@ -35,7 +35,7 @@ const registrarMarca = async () => {
             alert("La marca fue ingresada con exito");
             setTimeout(() => {
                 irHome();
-            }, 1000);
+            }, 100);
         } else {
             alert("Ocurrio un problema con el registro de la marca");
         }
